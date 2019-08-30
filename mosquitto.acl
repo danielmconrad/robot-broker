@@ -1,0 +1,4 @@
+topic read $SYS/#
+
+topic readwrite robots/#
+

@@ -1,0 +1,5 @@
+build:
+  docker:
+    web: Dockerfile
+run:
+  web: mosquitto -c mosquitto.conf -p $PORT

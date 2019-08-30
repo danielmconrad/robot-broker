@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  app:
+    build: .
+    container_name: robot-broker
+    ports:
+      - "1883:1883"
+    expose:
+      - 1883
+    environment:
+      - PORT=1883
+    volumes:
+      - ./:/robot-broker
+
